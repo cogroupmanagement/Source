@@ -14,7 +14,7 @@ Date: 02/11/2024 10:34 PM
 ]]--
 
 --[[ Loader ]]--
-local serverSettings = require(script.Parent.Settings)
+local serverSettings = require(game.ServerScriptService["CoSecure Anti Exploit"].Settings)
 local databaseService = require(99763061998283)
 local exploitInProgress = false
 
